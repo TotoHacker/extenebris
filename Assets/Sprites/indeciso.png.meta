@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: d48b523376055a64f9c6a7f6a92f556b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5953470114329387177
+    second: indeciso_0
+  - first:
+      213: -8470894445043617731
+    second: indeciso_1
+  - first:
+      213: 7380126804773421
+    second: indeciso_2
+  - first:
+      213: 1026136334535695821
+    second: indeciso_3
+  - first:
+      213: 1925955586109312055
+    second: indeciso_4
+  - first:
+      213: -1006022318460929980
+    second: indeciso_5
+  - first:
+      213: 7179797900428448904
+    second: indeciso_6
+  - first:
+      213: 6229139145150538323
+    second: indeciso_7
+  - first:
+      213: -4613526471695719890
+    second: indeciso_8
+  - first:
+      213: -8003841950230680321
+    second: indeciso_9
+  - first:
+      213: -1065874870690921341
+    second: indeciso_10
+  - first:
+      213: -4971067734321714326
+    second: indeciso_11
+  - first:
+      213: -6844008882210888522
+    second: indeciso_12
+  - first:
+      213: 6157374578643878749
+    second: indeciso_13
+  - first:
+      213: 944027992437877496
+    second: indeciso_14
+  - first:
+      213: -6167431693611442422
+    second: indeciso_15
+  - first:
+      213: -8122121719761658065
+    second: indeciso_16
+  - first:
+      213: -649066558046281801
+    second: indeciso_17
+  - first:
+      213: 5205390635088336846
+    second: indeciso_18
+  - first:
+      213: 6365921593385538869
+    second: indeciso_19
+  - first:
+      213: -3317293416228634607
+    second: indeciso_20
+  - first:
+      213: -5994917746197023984
+    second: indeciso_21
+  - first:
+      213: 5153795274519376821
+    second: indeciso_22
+  - first:
+      213: -8143257863625497216
+    second: indeciso_23
+  - first:
+      213: 4301749633429352961
+    second: indeciso_24
+  - first:
+      213: 1434252894040231842
+    second: indeciso_25
+  - first:
+      213: 8742180432465994549
+    second: indeciso_26
+  - first:
+      213: -5165841151785978490
+    second: indeciso_27
+  - first:
+      213: -6839432607230749271
+    second: indeciso_28
+  - first:
+      213: 1753028590865574736
+    second: indeciso_29
+  - first:
+      213: 1933125255757912161
+    second: indeciso_30
+  - first:
+      213: -8425212259255843649
+    second: indeciso_31
+  - first:
+      213: 8436116711988490904
+    second: indeciso_32
+  - first:
+      213: -401501678845022413
+    second: indeciso_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: indeciso_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 591
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0e181b689fe9250800000000000000
+      internalID: 5953470114329387177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_1
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 589
+        width: 40
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3078590266517a80800000000000000
+      internalID: -8470894445043617731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_2
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 591
+        width: 51
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a889caf283a1000800000000000000
+      internalID: 7380126804773421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_3
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 589
+        width: 60
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd1f1f3f819d3e00800000000000000
+      internalID: 1026136334535695821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_4
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 494
+        width: 59
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73c8933c66e5aba10800000000000000
+      internalID: 1925955586109312055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_5
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 494
+        width: 63
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44875001804e902f0800000000000000
+      internalID: -1006022318460929980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 495
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88412267624c3a360800000000000000
+      internalID: 7179797900428448904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_7
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 494
+        width: 65
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352ad239c09527650800000000000000
+      internalID: 6229139145150538323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_8
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 495
+        width: 64
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2227b41e1679ffb0800000000000000
+      internalID: -4613526471695719890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_9
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 494
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc61260724ace090800000000000000
+      internalID: -8003841950230680321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_10
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 374
+        width: 61
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384c37dc3704531f0800000000000000
+      internalID: -1065874870690921341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 375
+        width: 61
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b2955cb38330bb0800000000000000
+      internalID: -4971067734321714326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_12
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 375
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4a338ce223501a0800000000000000
+      internalID: -6844008882210888522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 373
+        width: 65
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53c61d5e83637550800000000000000
+      internalID: 6157374578643878749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_14
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 374
+        width: 66
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fae84b157cd91d00800000000000000
+      internalID: 944027992437877496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_15
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 373
+        width: 63
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0fddc51d81e86aa0800000000000000
+      internalID: -6167431693611442422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 255
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f1f17245d684f80800000000000000
+      internalID: -8122121719761658065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 258
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfd014876d0ef6f0800000000000000
+      internalID: -649066558046281801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 257
+        width: 68
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7d59904334d3840800000000000000
+      internalID: 5205390635088336846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_19
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 257
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535dbb906fb485850800000000000000
+      internalID: 6365921593385538869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_20
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 257
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11043f5b63b96f1d0800000000000000
+      internalID: -3317293416228634607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_21
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 257
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013bd308216cdcca0800000000000000
+      internalID: -5994917746197023984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_22
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 132
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b370d60f75f58740800000000000000
+      internalID: 5153795274519376821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_23
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 129
+        width: 68
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 085223c2e165dfe80800000000000000
+      internalID: -8143257863625497216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_24
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 134
+        width: 72
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102393dff72e2bb30800000000000000
+      internalID: 4301749633429352961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_25
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 131
+        width: 69
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2af085b786d77e310800000000000000
+      internalID: 1434252894040231842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_26
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 130
+        width: 66
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 533a18709c6725970800000000000000
+      internalID: 8742180432465994549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_27
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 134
+        width: 65
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 685b3bd97de3f48b0800000000000000
+      internalID: -5165841151785978490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_28
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 14
+        width: 64
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a599c4d7447511a0800000000000000
+      internalID: -6839432607230749271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_29
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 13
+        width: 65
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b65a72732045810800000000000000
+      internalID: 1753028590865574736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_30
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 15
+        width: 69
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16859cf8d27d3da10800000000000000
+      internalID: 1933125255757912161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_31
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 15
+        width: 63
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb40ac1c612a31b80800000000000000
+      internalID: -8425212259255843649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 14
+        width: 67
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8927fcdf37b131570800000000000000
+      internalID: 8436116711988490904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: indeciso_33
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 14
+        width: 61
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f28bfa9549d6af0800000000000000
+      internalID: -401501678845022413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      indeciso_0: 5953470114329387177
+      indeciso_1: -8470894445043617731
+      indeciso_10: -1065874870690921341
+      indeciso_11: -4971067734321714326
+      indeciso_12: -6844008882210888522
+      indeciso_13: 6157374578643878749
+      indeciso_14: 944027992437877496
+      indeciso_15: -6167431693611442422
+      indeciso_16: -8122121719761658065
+      indeciso_17: -649066558046281801
+      indeciso_18: 5205390635088336846
+      indeciso_19: 6365921593385538869
+      indeciso_2: 7380126804773421
+      indeciso_20: -3317293416228634607
+      indeciso_21: -5994917746197023984
+      indeciso_22: 5153795274519376821
+      indeciso_23: -8143257863625497216
+      indeciso_24: 4301749633429352961
+      indeciso_25: 1434252894040231842
+      indeciso_26: 8742180432465994549
+      indeciso_27: -5165841151785978490
+      indeciso_28: -6839432607230749271
+      indeciso_29: 1753028590865574736
+      indeciso_3: 1026136334535695821
+      indeciso_30: 1933125255757912161
+      indeciso_31: -8425212259255843649
+      indeciso_32: 8436116711988490904
+      indeciso_33: -401501678845022413
+      indeciso_4: 1925955586109312055
+      indeciso_5: -1006022318460929980
+      indeciso_6: 7179797900428448904
+      indeciso_7: 6229139145150538323
+      indeciso_8: -4613526471695719890
+      indeciso_9: -8003841950230680321
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
