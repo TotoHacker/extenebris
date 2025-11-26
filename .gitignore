@@ -7,6 +7,8 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+
+# UserSettings (solo ignora el archivo que no se debe subir)
 UserSettings/EditorUserSettings.asset
 
 # Generated local files
@@ -51,7 +53,6 @@ sysinfo.txt
 *.unitypackage
 
 # =============== TEXTURES / MODELS (LFS optional) ===============
-# Si usas Git LFS, activa estas líneas:
 # *.psd filter=lfs diff=lfs merge=lfs -text
 # *.tga filter=lfs diff=lfs merge=lfs -text
 # *.png filter=lfs diff=lfs merge=lfs -text
@@ -84,4 +85,3 @@ UnityCloudBuild/
 
 # ======== LOCAL PACKAGES ==========
 Packages/com.*.local/
-
