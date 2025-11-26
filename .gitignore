@@ -1,0 +1,87 @@
+# ============== UNITY ==============
+
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/EditorUserSettings.asset
+
+# Generated local files
+Assets/AssetStoreTools*
+/Assets/StreamingAssets/aa.meta
+*.csproj
+*.unityproj
+*.sln
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# Visual Studio cache
+.vs/
+
+# Unity crash reports
+sysinfo.txt
+
+# =============== ADDRESSABLES ===============
+/Assets/AddressableAssetsData/*/*.bin*
+/Assets/AddressableAssetsData/*/*.hash
+/Assets/AddressableAssetsData/*/*.link
+/Assets/AddressableAssetsData/*/*.bytes
+/ServerData/
+
+# =============== BUILDS ===============
+*.apk
+*.aab
+*.ipa
+*.app
+*.unitypackage
+
+# =============== TEXTURES / MODELS (LFS optional) ===============
+# Si usas Git LFS, activa estas líneas:
+# *.psd filter=lfs diff=lfs merge=lfs -text
+# *.tga filter=lfs diff=lfs merge=lfs -text
+# *.png filter=lfs diff=lfs merge=lfs -text
+# *.fbx filter=lfs diff=lfs merge=lfs -text
+# *.wav filter=lfs diff=lfs merge=lfs -text
+
+# =============== OS FILES ===============
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ========== UNITY COLLABORATE ==========
+.collab/
+
+# ======== UNITY CLOUD BUILD ========
+UnityCloudBuild/
+
+# ======== PACKAGES CACHE ==========
+/Library/PackageCache/
+
+# ======== LOCAL PACKAGES ==========
+Packages/com.*.local/
+
