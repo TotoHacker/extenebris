@@ -16,10 +16,6 @@ public class Player : MonoBehaviour
 
     private bool isGrounded = true;
 
-    // Dirección
-    private bool facingRight = true;
-
-    // tamaño original
     private Vector3 originalScale;
 
     void Start()
@@ -33,7 +29,6 @@ public class Player : MonoBehaviour
 
     void Update()
     {
-        // DETECTAR MOVIMIENTO
         moveInput = 0f;
 
         if (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed)
@@ -41,19 +36,11 @@ public class Player : MonoBehaviour
         else if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed)
             moveInput = -1f;
 
-        // VOLTEAR
         if (moveInput > 0)
-        {
-            facingRight = true;
             transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
-        }
         else if (moveInput < 0)
-        {
-            facingRight = false;
             transform.localScale = new Vector3(-Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
-        }
 
-        // CAMINAR (solo 1 animación)
         if (!isParrying)
             animator.SetBool("walkForward", moveInput != 0 && isGrounded);
 
@@ -65,6 +52,7 @@ public class Player : MonoBehaviour
             animator.SetBool("isJump", moveInput < 0);
             animator.SetBool("isJumpRigth", moveInput >= 0);
 
+            // ← CORRECTO EN UNITY 6
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
 
@@ -72,7 +60,6 @@ public class Player : MonoBehaviour
         if (Keyboard.current.rKey.wasPressedThisFrame && !isParrying)
         {
             isParrying = true;
-
             animator.SetBool("walkForward", false);
             animator.SetBool("isParry", true);
 
@@ -88,12 +75,13 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
+        // ← CORRECTO EN UNITY 6
         rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (rb.linearVelocity.y <= 0.1f)
+        if (rb.linearVelocity.y <= 0.1f) // ← CORRECTO
         {
             isGrounded = true;
             animator.SetBool("isJump", false);

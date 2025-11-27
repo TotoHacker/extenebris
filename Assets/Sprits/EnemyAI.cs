@@ -17,15 +17,16 @@ public class EnemyAI : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindWithTag("Player").transform;
-        playerLife = player.GetComponent<PlayerHealth>();
+        player = GameObject.FindWithTag("Player")?.transform;
+
+        if (player != null)
+            playerLife = player.GetComponent<PlayerHealth>();
 
         anim = GetComponent<Animator>();
         if (anim == null) anim = GetComponentInChildren<Animator>();
 
         sr = GetComponent<SpriteRenderer>();
         if (sr == null) sr = GetComponentInChildren<SpriteRenderer>();
-
     }
 
     void Update()
@@ -34,24 +35,17 @@ public class EnemyAI : MonoBehaviour
 
         cooldownTimer -= Time.deltaTime;
 
-        // perseguir
+        // Perseguir jugador
         transform.position = Vector2.MoveTowards(
             transform.position,
             player.position,
             speed * Time.deltaTime
         );
 
-        // animación caminar (solo si tiene animator)
-        if (anim != null)
-            anim.SetBool("isWalking", true);
+        // Voltear sprite hacia el jugador
+        sr.flipX = player.position.x > transform.position.x;
 
-        // voltear sprite hacia el jugador
-        if (player.position.x > transform.position.x)
-            sr.flipX = true;
-        else
-            sr.flipX = false;
-
-        // atacar
+        // Calcular distancia de ataque
         float distance = Vector2.Distance(transform.position, player.position);
 
         if (distance < attackRange && cooldownTimer <= 0)
@@ -65,5 +59,14 @@ public class EnemyAI : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, attackRange);
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player") && cooldownTimer <= 0)
+        {
+            playerLife.TakeDamage(damage);
+            cooldownTimer = attackCooldown;
+        }
     }
 }

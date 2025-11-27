@@ -29,7 +29,12 @@ public class Life : MonoBehaviour
         if (healthBar != null)
             healthBar.value = currentHealth;
 
-        StartCoroutine(HitEffect());   // ← EFECTO DE DAÑO
+        StartCoroutine(HitEffect());
+
+        // 🔥 AVISAR AL ENEMIGO QUE FUE DAÑADO
+        EnemyBaseAI ai = GetComponent<EnemyBaseAI>();
+        if (ai != null)
+            ai.OnDamageTaken(currentHealth);
 
         if (currentHealth <= 0)
             Die();
