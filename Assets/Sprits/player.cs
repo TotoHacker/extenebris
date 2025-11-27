@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
         }
 
         // ATAQUE
-        if (Keyboard.current.rKey.wasPressedThisFrame && !isParrying)
+        if (Keyboard.current.kKey.wasPressedThisFrame && !isParrying)
         {
             isParrying = true;
 
@@ -79,7 +79,7 @@ public class Player : MonoBehaviour
             attack.Attack();
         }
 
-        if (Keyboard.current.rKey.wasReleasedThisFrame && isParrying)
+        if (Keyboard.current.kKey.wasReleasedThisFrame && isParrying)
         {
             isParrying = false;
             animator.SetBool("isParry", false);
